@@ -1,0 +1,12 @@
+{
+    "name": "AntiKeylogger",
+    "description": "Have 2 different mods to protect you from keylogging.",
+    "version": "1.0",
+    "manifest_version": 3,
+"content_scripts": [
+   {
+     "matches": ["<all_urls>"],
+     "css": ["my-style.css"],
+     "js": ["myextension.js"]
+   }]
+}
